@@ -1,0 +1,49 @@
+@media (min-width: 992px) { 
+    
+  div.right > .under a:hover{
+    text-shadow: 5px 5px .5rem hwb(0 27% 14%);font-weight: 400;
+    transform: color ;
+    /* transition:.3s all ease-in-out;
+    color:red !important */
+  }
+
+  div.right > .under a::after{
+display: none;
+
+
+  }
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+   /* Nav */
+  
+
+   .right{
+     display: flex;
+     position: relative;
+     bottom: 3.5px;
+   }
+
+   .navbar-collapse{flex-grow:0 !important}
+
+   .right a{ margin: 10px }
+
+   
+
+}
+
+@media(min-width:400px) and (max-width:700px){ 
+  /* Nav home page */
+  h2.leftMv{font-size: 1.5rem;}
+  .text-uppercase{font-size: 22px;text-align: center;}
+
+  .text-uppercase::after{display: none;}
+
+ }
+

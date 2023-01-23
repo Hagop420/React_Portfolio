@@ -1,0 +1,83 @@
+.content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height:20vh;
+   align-items:center
+ }
+ 
+ .centerDiv{
+   /* margin: 0; */
+   position: absolute;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+ }
+
+ .navbar-nav .nav-link {
+   color:#343a40
+ }
+
+ /* animation h1 below */
+
+ .text-uppercase{
+  font-size: 50px;
+  display: block;
+  position: relative;
+}
+
+.text-uppercase::after{
+  content:'';
+  position: absolute;
+  margin-top: 50px;
+   border-bottom: 10px solid orange;
+  width:50px;
+ }
+
+
+ /* giving the nav links a red underline when hover */
+  /* Nav .under a::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width:0%;
+  height: 2px;
+  background-color: rgb(240, 33, 33);
+  transition: width 0.3s;
+} */
+
+
+/* .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  border-bottom:solid 3px rgb(240, 33, 33);
+  transition: width 0.3s;
+} */
+
+
+
+div.right > .under a::after{
+  content: "";
+  position: absolute;
+ display: block;
+  height: 3.4px;
+  width: 0%;
+  background: rgb(240, 33, 33);
+  transition: width 0.3s;
+}
+
+
+
+
+
+div.right > .under a:hover:after {
+   width: 95%;
+} 
+
+
+

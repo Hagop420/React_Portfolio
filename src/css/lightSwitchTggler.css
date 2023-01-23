@@ -1,0 +1,129 @@
+.arrow,
+.switch-light,
+.light-check,
+.switch {
+  position: absolute;
+}
+
+
+
+.switch-light {
+   margin-top: 15px;
+   -webkit-transform: rotate(90deg);
+           transform: rotate(90deg);
+   right: 0;
+   top: 83%;
+ }
+ 
+ .switch-light .toggle-light {
+   background-color: #030200;
+   border-radius: 50px;
+   /* cursor:pointer; */
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   padding: 5px;
+   position: relative;
+   
+   height: 23px;
+   width: 0%;
+   -webkit-transform: scale(1.5);
+           transform: scale(1.5);
+   /* left: 85%; */
+   border: 1px solid white;
+ }
+ 
+ .switch-light .light-check {
+   opacity: 0;
+ }
+
+ .dark{
+  background:rgb(3,0,0)
+ }
+ .light{
+  background:#ddd
+ }
+
+
+ 
+ .switch-light .switch {
+   background-color: #F8F8F8;
+   border-radius: 50%;
+   top: 3px;
+   left: -11px;
+   height: 15px;
+   width: 15px;
+   -webkit-transform: translateX(16px);
+           transform: translateX(16px);
+   -webkit-transition: -webkit-transform 0.2s linear;
+   transition: -webkit-transform 0.2s linear;
+   transition: transform 0.2s linear;
+   transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+ }
+ 
+ .switch-light input:checked + .toggle-light .switch {
+   -webkit-transform: translateX(48px);
+           transform: translateX(48px);
+ }
+ 
+ .switch-light .fa-sun,
+ .switch-light .fa-moon {
+   font-size: 1.4rem;
+ }
+ 
+ .switch-light .fa-sun {
+   color: #F06000;
+ }
+ 
+ .switch-light .fa-moon {
+   color: #FFA818;
+   -webkit-transform: rotate(-90deg);
+           transform: rotate(-90deg);
+ }
+ 
+
+
+ .switch-light {
+   margin-top: 20px;
+   right: 20px;
+ }
+ .switch-light .toggle-light {
+   left: 75%;
+   width: 50px;
+ }
+ .switch-light .fa-sun,
+ .switch-light .fa-moon {
+   font-size: .8rem;
+ }
+
+ .switch-light .fa-moon{
+  position: relative;
+  font-size: .6rem;
+  /* right:12px; */
+  bottom: 9px;
+ }
+
+ .switch-light .fa-sun{
+  position: relative;
+  font-size: .7rem;
+
+  bottom: 32px;
+  left:26px
+ }
+
+
+ .switch-light .switch {
+   top:4.3px;
+   left: -12px;
+   height: 12px;
+   width:12.3px;
+   -webkit-transform: translateX(17px);
+           transform: translateX(17px);
+ }
+ .switch-light input:checked + .toggle-light .switch {
+   -webkit-transform: translateX(43px);
+           transform: translateX(43px);
+ }
