@@ -1,0 +1,43 @@
+@media (min-width: 992px) { 
+    
+   div.right > .under a:hover{
+     text-shadow: 5px 5px .5rem hwb(0 27% 14%);font-weight: 400;
+     transform: color ;
+     /* transition:.3s all ease-in-out;
+     color:red !important */
+   }
+ 
+   div.right > .under a::after{
+ display: none;
+ 
+ 
+   }
+
+ .right{display: flex;}
+   
+   .navbar-collapse{flex-grow:0 !important}
+   .nav-link{margin: .5rem;}
+
+}
+
+/* i phone x Portrait */
+@media (max-width: 400px) and (max-height: 700px) {
+  .right{
+   display: flex;
+   margin:auto 1.2rem;
+   position: absolute !important;
+  }
+
+ 
+  .nav-link{margin: .4rem;}
+
+  /* get rid of red underline */
+  div.right > .under a::after{background:none}
+ }
+
+
+
+
+ .right{
+   position: fixed;
+ }

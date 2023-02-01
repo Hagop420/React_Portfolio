@@ -4,3 +4,11 @@
    margin-top:calc(100vh - 350px)
    
 }
+
+#wrapper > i:hover{animation:downABit 2s infinite forwards ease-in-out;}
+
+
+@keyframes downABit{
+   50%{transform:translateY(10px)}
+   100%{transform:translate(0)}
+}
