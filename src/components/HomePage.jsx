@@ -12,9 +12,10 @@ import {
 import '../css/lightSwitchTggler.css'
 import '../css/HomePage.css'
 import '../css/AboutMe.css'
+import '../css/HomePageMQ.css'
 import '../css/AboutMeMQ.css'
 import '../css/LightSwitchMQ.css'
-import '../css/HomePageMQ.css'
+import '../css/navListItemsMQ.css'
 import ScrabblingLetters from './ScramblngLettersHomePageEffect'
 import LightSwitchTogglerAndNavClrsChange from './LightSwitchToggler'
 import About from './AboutMe'
@@ -137,9 +138,9 @@ const HomePage = () => {
       <div aria-hidden="true" className="switch"></div>
             </label>
            
-
          </div>
          
+         <About />
 
 
        
@@ -147,7 +148,7 @@ const HomePage = () => {
 
 
          
-         <About/>
+         
 
       </>
    )

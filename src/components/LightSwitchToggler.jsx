@@ -50,9 +50,21 @@ class clr extends Component {
         // Nli.style.color='blue'
       })
     })
+
+    // about me arrow global color
+
+
+    const chevronDown = document.querySelector('#wrapper > i');
+
+    chevronDown.style.color='#fff'
+    chevronDown.style.fontSize='20px'
     
    
+// when not hover animate to 0 smoothly
 
+    chevronDown.addEventListener('mouseout', () => {
+      chevronDown.style.setProperty('transition', '.5s all ease-in-out', 'important');
+})
     
    
 
@@ -78,6 +90,12 @@ class clr extends Component {
         mainNavTtl.style.color = '#343a40';
         document.body.style.setProperty('background', '#ddd', 'important');
 
+        // change the chevron down icon's color on light 
+
+        const chevronDown = document.querySelector('#wrapper > i');
+
+        chevronDown.style.color='#343a40'
+
           // change switch background when light background
       const switchBckrd = document.querySelector('.switch-light .toggle-light')
       
@@ -96,7 +114,14 @@ class clr extends Component {
         
         // nav list items
 
-        document.querySelectorAll('.nav-link').forEach(navL => navL.style.color='#343a40')
+        document.querySelectorAll('.nav-link').forEach(navL => navL.style.color = '#343a40')
+        
+
+        // about me section
+
+
+        // about me arrow
+
 
 
       } else {
@@ -153,6 +178,13 @@ class clr extends Component {
             lis.style.setProperty('color', '#fff', 'important');
             lis.style.setProperty('transition', '.3s all ease', 'important');
           })
+
+          // change the chevron down icon's color on back to dark 
+
+        const chevronDown = document.querySelector('#wrapper > i');
+
+        chevronDown.style.color='#fff'
+
         })
 
 
