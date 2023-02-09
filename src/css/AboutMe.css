@@ -1,14 +1,25 @@
-#wrapper{
-   display: flex;
+ 
+ #wrapper{
+   display: block;
    justify-content: center;
-   margin-top:calc(100vh - 350px)
+   position:absolute;
+   bottom: 30px;
+   left:50px;
+   right:50px;
+   margin: auto;
+   text-align: center;
+   width:10px;
    
 }
+
+
+
+
 
 #wrapper > i:hover{animation:downABit 2s infinite forwards ease-in-out;}
 
 
 @keyframes downABit{
-   50%{transform:translateY(10px)}
+   50%{transform:translateY(5px)}
    100%{transform:translate(0)}
 }

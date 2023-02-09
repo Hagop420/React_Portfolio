@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { useState } from 'react';
 import {
    Navbar,
@@ -19,7 +18,8 @@ import '../css/navListItemsMQ.css'
 import ScrabblingLetters from './ScramblngLettersHomePageEffect'
 import LightSwitchTogglerAndNavClrsChange from './LightSwitchToggler'
 import About from './AboutMe'
-
+import './fadeInDeveloper'
+// 
 // js
 
 
@@ -111,7 +111,7 @@ const HomePage = () => {
                   </h1>
   </div>
   <div className="text-center text-md-left">
-    <h3 className='occupation'>Front End Web Developer</h3>
+    <h3 className='occupation opacity_animation'>Front End Web Developer</h3>
   </div>
   </div>
 </div>

@@ -1,7 +1,9 @@
 import React from 'react';
-import { Tooltip } from 'react-tippy';
-import '../../node_modules/react-tippy/dist/tippy.css'
-import '../css/AboutMeTooltip.css'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
+import { Link } from 'react-router-dom';
+
+
 
 
 const AboutMe = () => {
@@ -9,17 +11,27 @@ const AboutMe = () => {
       
       <section>
          
+      <span className="sdf">
+         <Tippy 
+            content="About Me"
+            className='first_tooltip'
+            data-placement='right'
 
-         <Tooltip 
-               direction="bottom"
-               html={<div>About Me</div>}
-         > 
+
+
+
+           
+               
+            > 
+               {/* <a href="#"></a> */}
+
             <div id="wrapper"> 
-               <i className="fa fa-chevron-down d-block" aria-hidden="true">
+               <i className="fa fa-chevron-down" aria-hidden="true">
 
                </i>
-            </div>
-          </Tooltip>
+               </div>
+          </Tippy>
+               </span>
          
 
     

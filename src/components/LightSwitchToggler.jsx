@@ -1,4 +1,6 @@
+import { tippy } from '@tippyjs/react';
 import React, { Component } from 'react';
+
 
 class clr extends Component {
   componentDidMount() {
@@ -116,11 +118,15 @@ class clr extends Component {
 
         document.querySelectorAll('.nav-link').forEach(navL => navL.style.color = '#343a40')
         
-
+        
         // about me section
-
-
+        
+        
         // about me arrow
+       
+      
+        
+
 
 
 
