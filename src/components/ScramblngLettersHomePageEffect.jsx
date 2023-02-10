@@ -102,14 +102,14 @@ app.init = () => {
 //    console.clear();
    let messenger = new Messenger($('#messenger'));
 
-   app.menuSlide();
+//    app.menuSlide();
 
-   // Scroll To
-   app.arrowSlide();
-   app.backToTop();
+//    // Scroll To
+//    app.arrowSlide();
+//    app.backToTop();
 
-   // Light Mode
-   app.switchLight();
+//    // Light Mode
+//    app.switchLight();
 
 }
 

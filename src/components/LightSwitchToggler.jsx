@@ -1,5 +1,5 @@
 import { tippy } from '@tippyjs/react';
-import React, { Component } from 'react';
+import { Component } from 'react';
 
 
 class clr extends Component {
@@ -56,7 +56,8 @@ class clr extends Component {
     // about me arrow global color
 
 
-    const chevronDown = document.querySelector('#wrapper > i');
+    const chevronDown = document.querySelector('#wrapper > a > i');
+    console.log(chevronDown);
 
     chevronDown.style.color='#fff'
     chevronDown.style.fontSize='20px'
@@ -94,7 +95,7 @@ class clr extends Component {
 
         // change the chevron down icon's color on light 
 
-        const chevronDown = document.querySelector('#wrapper > i');
+        const chevronDown = document.querySelector('#wrapper a > i');
 
         chevronDown.style.color='#343a40'
 
@@ -187,7 +188,7 @@ class clr extends Component {
 
           // change the chevron down icon's color on back to dark 
 
-        const chevronDown = document.querySelector('#wrapper > i');
+        const chevronDown = document.querySelector('#wrapper > a i');
 
         chevronDown.style.color='#fff'
 
